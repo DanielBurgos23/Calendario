@@ -1,0 +1,93 @@
+.fondo{
+    background-color: #95E1FF;
+    font-family: sans-serif;
+}
+
+.title1{
+    font-size: 200%;
+    text-align:left;
+    font-family: sans-serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+section{
+    background-color: lightyellow;
+    border: black 1px solid;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 50%;
+}
+
+section.Enero table{
+    border-collapse: collapse;
+  border: none;
+  text-align: center;
+}
+
+section.Enero caption{
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 5px;
+   
+}
+
+section.Enero th{
+    width: 3em;
+   border: black 1px ;  
+}
+
+section.Enero td{
+  border-bottom: 1px solid rgb(124, 124, 124);
+    width: 3em;   
+}
+
+section.Febrero table{
+    border-collapse: collapse;
+  border: none;
+  text-align: right;
+}
+
+section.Febrero caption{
+    font-weight: bold;
+    text-align: right;
+}
+
+section.Febrero th{
+  border-right: 0.5px solid #3a4042;
+    padding-right: 5px;
+}
+
+section.Febrero td{
+  border-right: 0.5px solid #3a4042;
+    font-size: 150%;
+    padding-right: 5px;
+    width: 1.5em;
+}
+
+section.Marzo table {
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  section.Marzo caption {
+    font-variant: small-caps;
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  section.Marzo th {
+    text-align: center;
+    border: black 1px solid;
+  }
+  section.Marzo td {
+    width: 4em;
+    height: 4em;
+    padding-left: 5px;
+    font-size: 70%;
+    vertical-align: top;
+    border: black 1px solid;
+  }
